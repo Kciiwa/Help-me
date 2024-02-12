@@ -168,10 +168,13 @@
     /* border: 2px solid #F8F8F8; */
 }
 
-.list__link:hover {
+.list__link:active {
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
+}
+.list__link:hover {
+    color: #d0d0d5;
 }
 
 
